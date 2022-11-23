@@ -1,0 +1,148 @@
+.formacao {
+  background-color: #141414;
+}
+
+.formacao-container {
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 8.2rem;
+  margin-top: 3.5rem;
+  padding: 5.5rem;
+  position: relative;
+}
+
+.formacao-detalhes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+}
+.formacao .subtitulo {
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  width: 5ch;
+}
+
+.formacao-texto {
+  color: #a3a3a3;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  max-width: 500px;
+}
+
+.formacao-texto strong {
+  color: white;
+}
+.lista-formacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.lista-formacao li {
+  background: #090909;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  flex: 1;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.lista-formacao span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a3a3a3;
+  margin-top: 1rem;
+}
+
+.lista-formacao p {
+  margin-bottom: 1rem;
+}
+
+.lista-formacao p strong {
+  color: white;
+}
+
+.lista-formacao li::before {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 4px;
+  left: -5px;
+  top: 3.5rem;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+}
+
+.conteudo-cursos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.horas {
+  grid-column: 2;
+  text-align: end;
+  color: #8f8f8f;
+}
+
+.idiomas {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+.cursos {
+  position: relative;
+}
+
+#ingles::after {
+  content: "/ Fluente";
+  margin-left: 0.5rem;
+  color: #8f8f8f;
+}
+
+#espanhol::after {
+  content: "/ Intermediário";
+  margin-left: 0.5rem;
+  color: #8f8f8f;
+}
+
+.span-formacao1 {
+  color: #8f8f8f;
+}
+.span-formacao2 {
+  color: #8f8f8f;
+}
+
+.span-formacao1::before {
+  content: url(../img/cursos.svg);
+  position: absolute;
+  left: -2rem;
+}
+
+.span-formacao2::before {
+  content: url(../img/idiomas.svg);
+  position: absolute;
+  left: -2rem;
+}
+
+.curso-texto {
+  color: white;
+}
+
+.formacao-container::after {
+  content: url(/img/detalhe.svg);
+  position: absolute;
+  bottom: -4rem;
+  left: 5.5rem;
+}

@@ -1,0 +1,57 @@
+@media (max-width: 1000px) {
+  .apresentacao h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .apresentacao {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.3rem;
+  }
+
+  .apresentacao h1 {
+    font-size: 2rem;
+  }
+
+  .apresentacao h1::before {
+    width: 30px;
+    height: 10px;
+    left: 0;
+  }
+
+  .formacao-container {
+    grid-template-columns: 1fr;
+  }
+
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .conteudo-footer {
+    flex-direction: column;
+  }
+
+  .frase-final {
+    text-align: center;
+  }
+
+  .frase-footer {
+    max-width: 40ch;
+    text-align: center;
+  }
+}

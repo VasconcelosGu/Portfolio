@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  background-color: black;
+}
+.container-footer {
+  max-width: 1500px;
+  padding: 1rem 5.5rem;
+}
+.conteudo-footer {
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  padding-top: 6rem;
+}
+
+.conteudo-footer p {
+  max-width: 450px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #cccccc;
+}
+
+.lista-comunicacao a {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.frase-final {
+  padding: 6rem 0 4rem 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8f8f8f;
+}
